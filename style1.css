@@ -1,0 +1,113 @@
+
+/* Configura a aparência geral da página */
+body {
+    background-color: #ffffff;
+    color: #292929;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Cabeçalho do site */
+header {
+    color: #107043;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Título principal */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #29233a;
+    text-align: center;
+}
+
+/* Texto de apresentação */
+body > p {
+    color: #666666;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* Títulos das seções */
+h2 {
+    color: #29233a;
+    margin-top: 30px;
+}
+
+
+/* Cartões das alternativas */
+.alternativa {
+    background-color: #f2f2f5;
+    border: 1px solid #e3e3e8;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin: 10px 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+.alternativa:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Espaço entre o botão de seleção e o texto */
+.alternativa input {
+    margin-right: 8px;
+}
+
+/* Faz o texto da alternativa ocupar o espaço disponível */
+.alternativa label {
+    cursor: pointer;
+}
+
+
+
+/* Resposta correta */
+.correta {
+    color: #218838;
+    font-weight: bold;
+}
+
+/* Resposta incorreta */
+.errada {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Resultado final */
+.resultado {
+    color: #29233a;
+    text-align: center;
+    background-color: #f2f2f5;
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+
+/* Cartão de uma resposta correta */
+.alternativa.correta {
+    background-color: #d4edda;
+    border-color: #28a745;
+}
+
+/* Cartão de uma resposta incorreta */
+.alternativa.errada {
+    background-color: #f8d7da;
+    border-color: #dc3545;
+}
+
+/* Resultado final */
+.resultado {
+    text-align: center;
+    color: #29233a;
+    background-color: #f2f2f5;
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
